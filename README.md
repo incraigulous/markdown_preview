@@ -10,4 +10,4 @@ Sample usage:
       	preview_container: '.markdown_output'
     });
 
-[Demo](http://jsfiddle.net/craigwann/ShS9g/6/) JSFiddle Demo
+[JSFiddle Demo](http://jsfiddle.net/craigwann/ShS9g/6/)
