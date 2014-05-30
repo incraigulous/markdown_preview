@@ -1,6 +1,14 @@
 /*
 ---
+description: Listen for markdown changes and preview them while editing using showdown.js
+
+license: MIT-style
+
+authors:
+- Craig Wann
+
 provides: MarkdownPreview
+
 requires: 
   - Core/Options
   - Core/Selectors
@@ -8,8 +16,6 @@ requires:
   - More/Element.Event.Pseudos
 ...
 */
-
-// Listen for markdown changes and preview them while editing using showdown.js
 
 var MarkdownPreview = new Class ({
     Implements: Options,
@@ -48,12 +54,6 @@ var MarkdownPreview = new Class ({
             this.preview_container.set('html', html);
         }
 });
-
-/*
----
-provides: Showdown
-...
-*/
 
 // showdown.js -- A javascript port of Markdown.
 //
