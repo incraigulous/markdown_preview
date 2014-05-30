@@ -9,3 +9,5 @@ Sample usage:
         text_field: '.markdown_field',
       	preview_container: '.markdown_output'
     });
+
+[Demo](http://jsfiddle.net/craigwann/ShS9g/6/) JSFiddle Demo
